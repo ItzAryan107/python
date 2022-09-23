@@ -1,10 +1,11 @@
 import random
 
 print("Guess a number between 1 and 20(included) --->")
+a = int(input("Enter a max range to play ---> "))
 
 
 def guessNumber():
-    guessingNumber = random.randint(1, 20)
+    guessingNumber = random.randint(1, a)
 
     count = 1
     while True:
