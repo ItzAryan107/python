@@ -5,6 +5,7 @@ volatile -- RAM
 non-volatile -- hard-disk(which get save)
 
 We can have a file in different mode --- like
+"rt"- is a default mode
 "r" - open file for reading
 "w" - open file foe for writing
 "x" - creates files if not exists(when the file is already existing then that file will not get create)
