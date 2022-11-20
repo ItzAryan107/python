@@ -1,0 +1,15 @@
+File IO Basics
+
+There are two types of memories
+volatile -- RAM
+non-volatile -- hard-disk(which get save)
+
+We can have a file in different mode --- like
+"r" - open file for reading
+"w" - open file foe for writing
+"x" - creates files if not exists(when the file is already existing then that file will not get create)
+"a" - Add more content to a file
+"t" - text mode
+"b" - binary mode
+"+" - using this we can reade and write a file
+
