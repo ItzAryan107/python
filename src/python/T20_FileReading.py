@@ -54,7 +54,7 @@ print()
 
 file6 = open("T20_FileReading.txt", "rt")
 # how to read character by character content
-content = file6.read()  # if any paramater given to the read function, then the pointer
+content = file6.read()  # if any parameter given to the read function, then the pointer
 # will only read that number of characters
 
 for line in content:
@@ -100,7 +100,6 @@ print(file8.readline(5))
 # and again if you using the readline function then it will read all the left characters of that line
 print(file8.readline())
 file8.close()
-
 
 
 print()
