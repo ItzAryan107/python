@@ -3,7 +3,7 @@ import mysql.connector
 connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="balaji@25101007",
+    password="***************",
     database="ice_cream"  # here already selecting the database, so in future no need to
     # type the command 'use ice_cream'
 )
