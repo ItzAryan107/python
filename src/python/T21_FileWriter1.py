@@ -1,4 +1,5 @@
-file = open("T21_FileWriting.txt", "a")  # here "a" mode allows you to append the ontent
+file = open("T21_FileWriting.txt", "a")  # here "a" mode allows you to append the
+# content
 file.write("Anup is the friend of Aryan\n")
 file.write("Karthika is the friend of Anup\n")
 file.close()
