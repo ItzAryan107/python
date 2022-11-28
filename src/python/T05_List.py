@@ -70,4 +70,15 @@ tp1 = tp1.__add__(tp2)  # after applying add function tuple won't get change, me
 for i in tp1:
     print(i)
 
+"""
+there is no method to add elements to data, if you want to add 
+you can only take the elements to the list and convert to tuple and add it to the previous tuple
+"""
+tupl1 = ("Aryan", "Ashmit", "Anup", "Nayan")
+# let if you want to add the list numbers to it
+tuple2 = tuple(numbers)
+tupl1 = tupl1.__add__(tuple2)
+for i in tupl1:
+    print(i)
+
 # list functions ---> https://www.geeksforgeeks.org/list-methods-in-python/
