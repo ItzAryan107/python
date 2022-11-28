@@ -63,4 +63,11 @@ print(a)
 print(b)
 
 
+tp2 = (43, 67, "Ashmit")  # once tuple got crete it can not add any more data to it, if you want to add then u can
+# only add tuple to it
+tp1 = tp1.__add__(tp2)  # after applying add function tuple won't get change, means here tp1 will not get change
+# ( not add the other tuple) until and unless you won't assign the modified tuple to top1
+for i in tp1:
+    print(i)
+
 # list functions ---> https://www.geeksforgeeks.org/list-methods-in-python/
