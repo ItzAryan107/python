@@ -135,7 +135,7 @@ def gameOver():
 
 
 # adding background sound
-sound.music.load("background.wav")  # we are using music function bcz this music is need to be played till the game
+sound.music.load("Resident Evil 4.mp3")  # we are using music function bcz this music is need to be played till the game
 # ends, but if you want to play a sound for few seconds then we will use sound function
 # sound.music.play()  <--- this will let you play the music just for once
 sound.music.play(-1)  # by giving -1 as argument, let the music to play on loop
