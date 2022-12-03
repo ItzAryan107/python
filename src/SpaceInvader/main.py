@@ -231,6 +231,7 @@ while running:
     showScore(textX, textY)
 
 """
+you can fet the images from flaticon.com
 In present there is only one font in in this pygame - freesansbold.ttf
 
 if ou want to add more font to your pygame it need to download from the website
