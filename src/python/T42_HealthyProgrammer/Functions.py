@@ -13,12 +13,12 @@ def getCurrentTime():
 
 def dailyStamp():
     with open("MyLogs.txt", "a") as file:
-        file.write(f"{getData()}\n")
+        file.write(f"\n{getData()}\n\n")
 
 
 def myLogs(logs):
     with open("MyLogs.txt", "a") as file:
-        file.write(f"{logs} --at--> {getCurrentTime()}\n")
+        file.write(f"{logs} --at--> {dt.now().time()}\n")
 
 
 def musicLoop(music, stopper):
