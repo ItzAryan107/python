@@ -45,7 +45,7 @@ def screenToFill():
     """
     screen.fill((0, 0, 0))
     # background image
-    screen.blit(background, (0, 0))
+    screen.blit(background, (0, 0))  # it ask the coordinate for top left corner
     pyg.display.update()
 
 
