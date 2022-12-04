@@ -36,10 +36,11 @@ def timeToDrinkWater():
         waterDrinkLowerLimit = func.getCurrentTime()
 
 
-while True:
-    if func.getCurrentTime() - pastTime >= 28800:
-        break
+if __name__ == '__main__':
+    while True:
+        if func.getCurrentTime() - pastTime >= 28800:
+            break
 
-    timeForEyeDrop()
-    timeForExercise()
+        timeForEyeDrop()
+        timeForExercise()
 
