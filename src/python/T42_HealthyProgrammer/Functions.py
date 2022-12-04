@@ -16,19 +16,19 @@ def dailyStamp():
         file.write(f"\n{getData()}\n\n")
 
 
-def myLogs(logs):
+def myLogs(logs, statement):
     with open("MyLogs.txt", "a") as file:
-        file.write(f"{logs} --at--> {dt.now().time()}\n")
+        file.write(f"{statement}\n{logs} --at--> {dt.now().time()}\n")
 
 
-def musicLoop(music, stopper):
+def musicLoop(music, stopper, statement):
     reminder.init()
     reminder.music.load(music)
     reminder.music.play()
     while True:
         a = input("---> ")
         if a == stopper:
-            myLogs(stopper)
+            myLogs(stopper, statement)
             reminder.music.stop()
             return
         print("Error! - Enter valid Input")
