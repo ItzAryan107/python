@@ -33,7 +33,7 @@ def timeToDrinkWater():
     global waterDrank
     if func.getCurrentTime() - waterDrinkLowerLimit >= 1800:  # try for 30 seconds
         waterDrank += 0.45
-        func.musicLoop("DrinkWaterReminder.mp3", "Drank",
+        func.musicLoop("test music.mp3", "Drank",
                        "\t -------This is the Time to Drink Water At least OF 0.45 liter ----->")
         waterDrinkLowerLimit = func.getCurrentTime()
 
