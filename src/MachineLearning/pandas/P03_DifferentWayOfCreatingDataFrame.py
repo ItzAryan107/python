@@ -6,7 +6,8 @@ print(df)
 print()
 
 # 2. creating a dataframe using excel file
-# this is getting possible in jupyter notebook, have a look there
+df = pd.read_excel("P03_weather_data.xlsx", "Sheet1")  # talking about sheet1
+print(df)
 
 print()
 
