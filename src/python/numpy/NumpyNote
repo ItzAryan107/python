@@ -1,0 +1,17 @@
+numpy provides efficient storage
+it also provides better way of handling ata for processing
+it is fast
+it is easy to learn
+numpy uses relatively less memory to store data
+
+
+
+
+numpy is the fundamental package for scientific computing in python
+numpy is a python library that provides a multidimensional array object, various derived object
+
+Advantages of using numpy array over python array:
+consumes less memory
+fast as compared to the python list
+convenient to use
+
